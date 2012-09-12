@@ -1,0 +1,10 @@
+target
+.settings
+out
+.idea
+.classpath
+.project
+.settings/org.codehaus.groovy.eclipse.preferences.prefs
+playground-grailsPlugins.iml
+playground.iml
+stacktrace.log
