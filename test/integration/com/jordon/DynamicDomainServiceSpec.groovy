@@ -36,4 +36,13 @@ class DynamicDomainServiceSpec extends IntegrationSpec {
 		'TestName'		| null			| false
 		null			| 'TestValue'	| false
 	}
+	
+	def "test alternate config file"() {
+		when:
+		// def prop1 = grailsApplication.config.jordon.config.property1
+		def prop1 = grailsApplication.config.jordon.config.property1
+		
+		then:
+		prop1 == true
+	}
 }
